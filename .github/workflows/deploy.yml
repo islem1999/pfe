@@ -29,4 +29,4 @@ jobs:
 
       - name: Sync front-end to S3
         run: |
-          aws s3 sync front-end/ s3://islem.cheznouslabas.fr/  --delete
+          aws s3 sync frontend/ s3://islem.cheznouslabas.fr/  --delete
